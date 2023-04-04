@@ -26,7 +26,7 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-		<!--To activate a Promethius endpoint-with Micrometer -->
+		<!--To activate a Promethius endpoint with Micrometer -->
 		<dependency>
 			<groupId>io.micrometer</groupId>
 			<artifactId>micrometer-registry-prometheus</artifactId>
@@ -37,7 +37,6 @@
 		<dependency>
     		<groupId>io.micrometer</groupId>
     		<artifactId>micrometer-tracing-bridge-brave</artifactId>
-    		<version>1.0.3</version>
 		</dependency>
 
 		<!-- For log correlation with Grafana Loki -->
